@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add to your CSS file */
+.payment-form-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .payment-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .payment-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .google-pay-btn {
+    background-color: green;
+    color: white;
+  }
+  
+  .paypal-btn {
+    background-color: #0070ba;
+    color: white;
+  }
+  
+  .paytm-btn {
+    background-color: #0047b3;
+    color: white;
+  }
+  
